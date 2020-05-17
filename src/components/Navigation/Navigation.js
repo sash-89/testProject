@@ -3,11 +3,11 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 
 let links = [
-    {
-        exact: true,
-        to: "/",
-        linkName: "Home Page"
-    },
+    // {
+    //     exact: true,
+    //     to: "/",
+    //     linkName: "Home Page"
+    // },
     {
         exact: false,
         to: "/react-redux",
@@ -42,20 +42,21 @@ let links = [
         to: "/todo2",
         linkName: "To Do2"
     },
-    {
-        exact: false,
-        to: "/todo3",
-        linkName: "To Do3"
-    },
+    // {
+    //     exact: false,
+    //     to: "/todo3",
+    //     linkName: "To Do3"
+    // },
     {
         exact: false,
         to: "/scroll_block",
         linkName: "Scroll Block"
-    }, {
-        exact: false,
-        to: "/scroll_block2",
-        linkName: "Scroll Block2"
     },
+    // {
+    //     exact: false,
+    //     to: "/scroll_block2",
+    //     linkName: "Scroll Block2"
+    // },
 ];
 
 

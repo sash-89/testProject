@@ -1,98 +1,87 @@
-import React from "react";
-import style from "./ToDoContainer.module.css";
+import React, {useState} from "react";
+import style from "./ToDo.module.scss";
 import ToDo from "./ToDo";
 
 
-class ToDoContainer extends React.Component {
-    state = {
-        toDos: [
-            {id:1, name:"Задание1", toggle:false, checked:false},
-            {id:2, name:"Задание2", toggle:false, checked:false},
-            {id:3, name:"Задание3", toggle:false, checked:false},
-            {id:4, name:"Задание4", toggle:false, checked:false},
-        ],
-        newToDoToggle:false,
-        text: "",
+const ToDoContainer = () => {
+    const [filterName, changeFilterName]= useState("all")
+    const [searchValue, changeSearchValue]= useState("")
+
+    const [toDos, changeToDo]= useState([
+        {
+            id: 1,
+            toDoText: "Сделать что нибудь",
+            important: false,
+            done: false
+        },
+        {
+            id: 2,
+            toDoText: "Сходить куда нибудь",
+            important: false,
+            done: false
+        },
+        {
+            id: 3,
+            toDoText: "Создать что нибудь",
+            important: false,
+            done: false
+        },
+    ]);
+
+
+
+    const addToDo = (text) => {
+        const newToDo = {
+            id: (new Date().getTime()),
+            toDoText: text,
+            important: false,
+            done: false
+        };
+        changeToDo([...toDos, newToDo]);
     };
 
-    DeleteHandler=(targetId)=>{
-this.setState({toDos:this.state.toDos.filter(({id})=>id!==targetId)})
+    const deleteTodo =(id)=>{
+        changeToDo(toDos.filter(toDo=>toDo.id!==id))
+
+    };
+    const updateTodo =(id, toDoText)=>{
+        changeToDo(toDos.map(toDo=>toDo.id!==id ? toDo : {...toDo, toDoText}))
     };
 
-    TodoChange=(targetId, e, toggle)=>{
-        this.setState({toDos: this.state.toDos.map((toDo)=>(
-                toDo.id!==targetId ? toDo : {...toDo, name: e.target.value}  ))});
-
-        if(e.key==="Enter") return this.openInput(targetId, toggle);
+  const importantTodo =(id)=>{
+        changeToDo(toDos.map(toDo=>toDo.id!==id ? toDo : {...toDo, important:!toDo.important}))
     };
-
-    openInput=(targetId, toggle)=>{
-        this.setState({toDos: this.state.toDos.map((toDo)=>(
-                toDo.id!==targetId?toDo:{...toDo, toggle: !toggle}))})
-    };
-
-
-
-    checkboxToggle=(targetId, checked)=>{
-        this.setState({toDos: this.state.toDos.map((toDo)=>(
-               toDo.id!==targetId? toDo : {...toDo,  checked:!checked}))})
+  const doneTodo =(id)=>{
+        changeToDo(toDos.map(toDo=>toDo.id!==id ? toDo : {...toDo, done:!toDo.done}))
     };
 
 
-    onTextChange=(e)=>{
-        this.setState({text: e.target.value});
-
-        e.key==="Enter"&&this.newTodo(this.state.text);
+    const filterTodo =()=>{
+        switch (filterName) {
+            case "all": return  searchTodo();
+            case "done": return  searchTodo().filter(toDo=>toDo.done===true);
+            case "not-done": return  searchTodo().filter(toDo=>toDo.done===false);
+            default: return  toDos;
+        }
     };
-    newTodo=( name)=>{
-        this.setState({toDos: [
-                ...this.state.toDos,
-                {id:(new Date().getTime()), name:name, toggle: false, checked:false}
-            ],
-            text :""})
-    };
-
-
-    render() {
-        let {toDos} = this.state;
-        let activeToDos = toDos.filter(({checked}) => checked === false);
-        let completeToDos = toDos.filter(({checked}) => checked === true);
-        let allToDos = [...activeToDos, ...completeToDos];
-
-
-
-        return (
-            <div>
-                <button onClick={()=>this.setState({newToDoToggle: !this.state.newToDoToggle})}>Добавить</button>
-               {this.state.newToDoToggle&&<tr  className={style.Body}>
-                   <td> <input  onKeyDown={this.onTextChange} placeholder={"Введите задание"} autoFocus
-                                onChange={(e)=>{this.onTextChange(e)}} value={ this.state.text }/></td>
-                   <td>&nbsp;</td>
-                   <td><button onClick={()=>this.newTodo(this.state.text)}>Добавить</button></td>
-               </tr>}
-            <table className={style.Container}>
-                <thead>
-                <tr className={style.ProductName}>
-                    <th>N</th>
-                    <th>Название</th>
-                    <th>Изменить</th>
-                    <th>Удалить</th>
-                </tr>
-                </thead>
-                <tbody className={style.Product}>
-                    {allToDos.map((toDo, index)=>{
-                        return <ToDo toDo={toDo} key={toDo.id}
-                                     checkboxToggle={this.checkboxToggle}
-                                     openInput={this.openInput}
-                                     TodoChange={(e)=>{this.TodoChange( toDo.id, e, toDo.toggle )}}
-                                     DeleteHandler={this.DeleteHandler}/>
-                    })
-                    }
-                </tbody>
-            </table>
-            </div>
+    const searchTodo =()=>{
+        if (!searchValue) return toDos;
+        return toDos.filter(toDo=>{
+                return toDo.toDoText.toLowerCase().includes(searchValue.toLowerCase())
+            }
         )
-    }
-}
+    };
+
+    return (
+        <div className={style.ToDoContainer}>
+            <h2>Список задач</h2>
+            <ToDo toDos={filterTodo()} filterName={filterName} changeFilterName={changeFilterName}
+                  addToDo={addToDo} deleteTodo={deleteTodo} updateTodo={updateTodo}
+                  importantTodo={importantTodo} doneTodo={doneTodo} changeSearchValue={changeSearchValue}
+            />
+        </div>
+    )
+
+};
 
 export default ToDoContainer;

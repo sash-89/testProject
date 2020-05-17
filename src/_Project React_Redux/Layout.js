@@ -40,8 +40,7 @@ const App = (props) => {
             <NavBar/>
             <div className={style.Content}>
                 <Route path="/react-redux/dialogs" render={() => <Dialogs/>}/>
-                <Route path="/react-redux/profile/:userId?" render={() =>
-                    <ProfileContainer/>}/> {/* :userId - параметры из match.params, ? - парам. не обязательный*/}
+                <Route path="/react-redux/profile/:userId?" render={() =><ProfileContainer/>}/>
                 <Route path="/react-redux/users" render={() => <UsersContainer/>}/>
                 <Route path="/react-redux/login" render={() => <Login/>}/>
                 <Route path="/react-redux/shop" render={() => <Shop/>}/>

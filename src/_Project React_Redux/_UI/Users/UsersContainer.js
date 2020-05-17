@@ -70,6 +70,6 @@ const MapStateToProps = (state) => ({
 
 export default compose(connect(MapStateToProps,
     {setCurrentPage, searchUsers, getUsersData, getFollowData, getUnfollowData, searchUsersData}),
-    withRedirect,
+    // withRedirect,
     withRouter
 )(UsersContainer);

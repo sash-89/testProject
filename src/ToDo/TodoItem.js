@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./ToDo3.module.scss";
+import style from "./ToDo.module.scss";
 
 
 
 
-const ToDo3Item = ({toDoText, done, important, doneTodo}) => {
+const TodoItem = ({toDoText, done, important, doneTodo}) => {
 const spanCls =[style.ToDoItem];
 if(done) spanCls.push(style.ToDoDone);
 if(important) spanCls.push(style.ToDoImportant);
@@ -18,4 +18,4 @@ if(important) spanCls.push(style.ToDoImportant);
 
 };
 
-export default ToDo3Item;
+export default TodoItem;

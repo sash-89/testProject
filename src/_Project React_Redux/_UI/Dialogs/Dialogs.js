@@ -20,4 +20,4 @@ const Dialogs = () => {
     );
 };
 
-export default withRedirect(Dialogs);
+export default Dialogs;
