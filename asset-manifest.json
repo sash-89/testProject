@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/testProject/static/css/main.992ef55f.chunk.css",
+    "main.js": "/testProject/static/js/main.541591ad.chunk.js",
+    "main.js.map": "/testProject/static/js/main.541591ad.chunk.js.map",
+    "runtime-main.js": "/testProject/static/js/runtime-main.59232b16.js",
+    "runtime-main.js.map": "/testProject/static/js/runtime-main.59232b16.js.map",
+    "static/js/2.245b8b2b.chunk.js": "/testProject/static/js/2.245b8b2b.chunk.js",
+    "static/js/2.245b8b2b.chunk.js.map": "/testProject/static/js/2.245b8b2b.chunk.js.map",
+    "index.html": "/testProject/index.html",
+    "precache-manifest.5c3ef8e16f8499c9174ae1ac658d9b18.js": "/testProject/precache-manifest.5c3ef8e16f8499c9174ae1ac658d9b18.js",
+    "service-worker.js": "/testProject/service-worker.js",
+    "static/css/main.992ef55f.chunk.css.map": "/testProject/static/css/main.992ef55f.chunk.css.map",
+    "static/js/2.245b8b2b.chunk.js.LICENSE.txt": "/testProject/static/js/2.245b8b2b.chunk.js.LICENSE.txt",
+    "static/media/close.png": "/testProject/static/media/close.0329f97b.png",
+    "static/media/img_194863.png": "/testProject/static/media/img_194863.029ca567.png",
+    "static/media/img_401107.png": "/testProject/static/media/img_401107.db0cc9ac.png",
+    "static/media/img_504586.png": "/testProject/static/media/img_504586.c942fb22.png",
+    "static/media/likemessage_81127.ico": "/testProject/static/media/likemessage_81127.e7d7b20b.ico",
+    "static/media/QuizCreator.module.css": "/testProject/static/media/no-drop.dc071cae.cur",
+    "static/media/preload.gif": "/testProject/static/media/preload.714222f6.gif",
+    "static/media/thermometer-with-high-temperature_icon-icons.com_54634.ico": "/testProject/static/media/thermometer-with-high-temperature_icon-icons.com_54634.f9f7722e.ico",
+    "static/media/wind_120368.ico": "/testProject/static/media/wind_120368.8a5fd237.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59232b16.js",
+    "static/js/2.245b8b2b.chunk.js",
+    "static/css/main.992ef55f.chunk.css",
+    "static/js/main.541591ad.chunk.js"
+  ]
+}
