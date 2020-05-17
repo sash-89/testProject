@@ -1,0 +1,34 @@
+.List{
+    color: #fff;
+    width: 300px;
+    margin: 20px auto;
+    height: 50px;
+    background-color: #bf07ac;
+    border-radius: 5px;
+}
+.List p{
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+}
+.List p input{
+    margin: 3px 0;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.List p input:focus{
+    outline: none;
+}
+.List p img{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 30px;
+}
+.Icons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}

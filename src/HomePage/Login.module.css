@@ -1,0 +1,251 @@
+
+.Wrapper{
+    max-width: 100vw;
+    height: 90vh;
+    background: url("Vector.jpg") center center / cover no-repeat local;
+}
+
+.LogoContainer{
+    display: grid;
+    position: relative;
+    top: 47px;
+
+}
+.LogoWrapper{
+    display:grid;
+    justify-self: end;
+    position: absolute;
+    right: 3%;
+    grid-auto-columns: minmax(80px, 180px);
+    grid-auto-rows: minmax(20px,58px);
+
+}
+.Logo{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.LoginContainer{
+    display: grid;
+    grid-template-columns: minmax(auto, 300px);
+    grid-template-rows: minmax(auto, 300px);
+    margin-left: 12.03%;
+    margin-top: 12.22%;
+}
+.LoginWrapper{
+    position: absolute;
+    width: 100%;
+    background: #f6e2ff;
+
+}
+
+.Close{
+    left: 43%;
+    top: 3%;
+}
+.h1Wrapper h1{
+    padding-top: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 42px;
+    display: flex;
+    letter-spacing: -0.5px;
+    color: #4F4F4F;
+}
+.h1Wrapper{
+    max-width: 78px;
+    height: 65px;
+    padding-left: 15.78%;
+    margin-top: 7px;
+}
+.EmailContainer{
+    display: grid;
+    height: 42px;
+    margin:20px 15.78%;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.EmailCaptionWrapper{
+    width: 159px;
+    height: 12px;
+}
+.EmailCaption{
+    padding-bottom: -33.33%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #828282;
+}
+
+.EmailWrapper{
+    width: 157px;
+    height: 20px;
+    padding-top: 6px;
+}
+.EmailInput{
+    background: transparent;
+    display: block;
+    border: 0;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #4F4F4F;
+}
+.EmailInput::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #4F4F4F;
+}
+
+.PasswordContainer{
+    position: relative;
+    display: block;
+    max-width: 360px;
+    height: 42px;
+    margin:0 15.78%;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.PasswordCaptionWrapper{
+    width: 159px;
+    height: 12px;
+}
+.PasswordCaption{
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #828282;
+}
+
+.PasswordWrapper{
+    width: 157px;
+    height: 20px;
+}
+.PasswordInput{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.BtnWrapper{
+    width: 122px;
+    height: 30px;
+    padding-left: 15.78%;
+    padding-top: 23px;
+}
+.Btn{
+    width: 122px;
+    height: 30px;
+    background: #219653;
+    border-radius: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.15px;
+    color: #F2F2F2;
+    border: none;
+    outline: none;
+}
+.Btn:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.SingUpCaptionWrapper{
+
+    height: 43px;
+    padding: 49px 0 0 15%;
+}
+.SingUpCaption, .SingUpCaption a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #828282;
+    text-align: left;
+}
+.SingUpCaption a{
+    display: inline;
+    font-weight: bold;
+}
+.IconsWrapper{
+    padding: 58px 8px 0 8px;
+
+}
+.Icons{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(6, minmax(10px,36px));
+}
+.Icons img:nth-child(5){
+    position: relative;
+    left:-40%;
+    max-width: 64px;
+
+}
+
+@media screen and (max-width: 1600px){
+    .Container{
+        max-width: 1600px;
+    }
+    .Logo{
+        max-width:150px ;
+    }
+    .LoginContainer{
+        display: grid;
+        max-width: 400px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .Container{
+        max-width: 1200px;
+    }
+    .Logo{
+        max-width:135px ;
+    }
+    .LoginContainer{
+        max-width: 350px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width: 992px){
+    .Container{
+        max-width: 992px;
+    }
+    .Logo{
+        max-width:120px ;
+    }
+    .LoginContainer{
+        max-width: 300px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width: 767px){
+    .Container{
+        max-width: 767px;
+    }
+    .Logo{
+        max-width:90px;
+        right: -50px;
+    }
+
+
+}

@@ -1,0 +1,40 @@
+*{
+  position: relative;
+  box-sizing: border-box;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: aliceblue;
+}
+.App{
+  text-align: center;
+
+}
+
+header{
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 3px;
+  z-index: 2;
+}
+
+.Container{
+  position: relative;
+  top: 60px;
+}
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/

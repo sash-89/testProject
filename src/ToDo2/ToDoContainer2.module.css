@@ -1,0 +1,42 @@
+.TodoContainer{
+
+    padding: 50px 0 0 0;
+}
+
+.TodoWrapper{
+    background-color: #3f3160;
+    min-height:450px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 15px rgba(133, 104, 190, 0.49);
+}
+
+.ToDoForm input{
+    background-color: rgba(27, 112, 137, 1);
+    border: 0;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.ToDoForm input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+.ToDoForm input:focus{
+    outline: none;
+}
+.ToDoForm button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgba(202, 156, 24, 1);
+    cursor: pointer;
+}
+.ToDoForm button:focus{
+    outline: none;
+}

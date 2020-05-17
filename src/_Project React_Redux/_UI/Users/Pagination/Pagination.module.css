@@ -1,0 +1,15 @@
+.Paginator {
+    margin: 10px;
+}
+.PageNumber {
+    display: inline-block ;
+    padding: 2px;
+    border: 1px solid grey;
+    color: white;
+    cursor: pointer;
+}
+
+.SelectedPage {
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+.Body{
+    height: 30px;
+    border: 1px solid #000;
+
+}
+.Body.Disabled{
+    background: rgba(13, 13, 13, 0.32);
+    color: rgba(13,13,13,0.32);
+}
+.Body button{
+    background: #ff0019;
+    height: 25px;
+    width: 55px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: #000000;
+
+}
+
+.showInput{
+
+
+}

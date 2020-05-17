@@ -1,0 +1,38 @@
+.AppWrapper{
+    margin: 0 auto;
+    display: grid;
+    width: 90%;
+    grid-template-areas:"header header"
+    "navbar content";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 16% 10fr;
+    grid-gap: 10px;
+
+}
+.Content {
+    grid-area: content;
+    background-color: #3a3a3a;
+    padding: 10px;
+    outline: 1px solid white;
+    outline-offset:-3px;
+
+}
+
+
+.InitializeWrapper{
+    position: absolute;
+    background: #3a3a3a;
+    outline: 1px solid white;
+    outline-offset:-3px;
+}
+
+.PreloaderContainer{
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    min-height: 90vh;
+    overflow: hidden;
+}
+.PreloaderWrapper{
+    margin: 42vh auto;
+}

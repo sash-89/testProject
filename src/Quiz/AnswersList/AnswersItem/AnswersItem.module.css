@@ -1,0 +1,26 @@
+.Wrapper{
+
+}
+
+
+.list{
+    list-style-type: none;
+    margin: 5px;
+    padding: 7px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list:hover{
+    background: rgba(255, 255, 255, .2);
+    transition: background .3s ease-in-out;
+}
+.list.success{
+    background: rgba(24, 204, 36, .7);
+    transition: background .3s ease-in-out;
+}
+.list.error{
+    background: rgba(255, 0, 0, .8);
+    transition: background .3s ease-in-out;
+
+}

@@ -1,0 +1,22 @@
+.Container{
+    display: grid;
+    margin-left: 20px;
+
+}
+.Users {
+    display: grid;
+    justify-content: start;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.Users p{
+    display: grid;
+    grid-auto-columns: minmax(50px, 110px);
+    margin-top: 5px;
+    background: #3a3a3a;
+    color: white;
+    padding-left: 7px;
+    border-radius: 2px;
+}

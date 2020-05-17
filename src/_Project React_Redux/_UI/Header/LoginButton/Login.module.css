@@ -1,0 +1,14 @@
+
+.Wrapper{
+    position: relative;
+    display: grid;
+    justify-content: end;
+    padding: 30px;
+}
+
+.Wrapper .Login {
+    position: absolute;
+    width: 60px;
+    border: 1px solid #ffffff;
+    right: 10px;
+}

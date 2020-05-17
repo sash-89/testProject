@@ -1,0 +1,90 @@
+.Wrapper{
+    display: grid;
+    grid-template-areas: "span span" "img info";
+    justify-items: start;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+.Profile{
+    background: white;
+}
+.Profile img{
+    display: inline-block;
+    grid-area: info;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.Info{
+    display: inline-block;
+    grid-area: info;
+    width: 300px;
+    text-align: left;
+    float: left;
+}
+
+
+.Btn{
+    display: inline-block;
+    float: left;
+    margin: 10px 2px;
+}
+.Btn:disabled{
+    background: #c60000;
+}
+.SearchBlock{
+    position: absolute;
+    right: 0;
+    border: 1px solid white;
+    height: 28px;
+    border-radius: 28px;
+    background: #3a3a3a;
+    z-index: 1;
+}
+
+.SearchWrapper:hover > input {
+    width: 170px;
+    margin-left: 12px;
+}
+.SearchWrapper:hover > img {
+    background: #9e9e9e;
+}
+.SearchWrapper img{
+    display: inline-block;
+    width: 24px;
+    justify-self: end;
+    margin:1px 2px;
+    padding: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+.SearchWrapper input{
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    padding-top: 5px;
+    width: 0;
+    transition: .3s ease-in;
+}
+.SearchWrapper input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    cursor: pointer;
+}
+
+.SearchWrapper input::placeholder{
+   animation: 5s demo ease-in ;
+}
+
+@keyframes demo {
+    0%{
+
+    }
+}

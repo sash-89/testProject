@@ -1,0 +1,53 @@
+.cars{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 1s ease 0.1s;
+}
+
+.cars.carsOn {
+    opacity: 1;
+    transition: opacity 1s linear 0.1s;
+}
+.Button{
+    width: 130px;
+    height: 30px;
+    border: 1px solid #0048ff;
+    background: transparent;
+    color: #0048ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    transition-delay:  0.3s;
+}
+.Button:before,.Button:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: #0048ff;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 1px;
+    z-index: -2;
+    transition: 0.2s;
+}
+.Button:before{
+    background: rgba(0, 72, 255, 0.63);
+    transition-delay: 0.2s;
+}
+.Button:hover{
+    color: white;
+    transition-delay:  0.1s;
+}
+.Button:hover:before,.Button:hover:after{
+    left: 0;
+    top: 0;
+    transition: 0.2s;
+}
+.Button:hover:after{
+    transition-delay: 0.2s;
+}

@@ -1,0 +1,25 @@
+.Container{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    height: 90vh;
+    color: white;
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+}
+
+.Wrapper{
+    position: relative;
+    text-align: center;
+    padding: 0 25%;
+}
+
+.newQuest{
+    padding: 5px;
+    height: 30px;
+    background: white;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    left:  85%;
+}

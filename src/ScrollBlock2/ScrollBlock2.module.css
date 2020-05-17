@@ -1,0 +1,37 @@
+.Container{
+    display: block;
+    position: relative;
+    height: 100%;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.Main{
+    position: relative;
+    display: inline-block;
+    border: 1px solid silver;
+    border-radius: 5px;
+    max-width: 950px;
+    float: left;
+}
+.Container1{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    height: 700px;
+    width: 240px;
+    margin: 0;
+    border: 3px solid yellow;
+    overflow: hidden;
+}
+
+.RightAside{
+    position: relative;
+    width: 240px;
+    height: 250px;
+    border: 1px solid silver;
+    border-radius: 5px;
+
+}
+
+

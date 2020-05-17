@@ -1,0 +1,85 @@
+.Container{
+    border: 1px solid white;
+    max-width: 30%;
+    min-width: 200px;
+    margin: 0 auto;
+    text-align: left;
+    min-height: 210px;
+
+}
+
+.Container .Wrapper{
+    margin: 20px 0 30px 10px;
+    height: 30px;
+}
+
+
+.Wrapper{
+    width: 90%;
+    margin: 0 ;
+}
+.Wrapper img{
+    width: 130px;
+    height: 30px ;
+    margin: -15px 0 0 20px;
+}
+.Fieldset{
+    position: relative;
+    height: 45px;
+    border: 1px solid white;
+}
+.Input{
+    display: block;
+    position: absolute;
+    margin: 0 0 0 3px;
+    background: #f2f2f1;
+    outline: none;
+    border: 1px solid white;
+    top: 22px;
+}
+
+
+.RememberMe{
+    color: white;
+    margin: -10px 0 0 10px;
+}
+.RememberMe .RM{
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+.Btn{
+    border: 1px solid white;
+    margin: 5px 0 0 10px;
+
+}
+.Btn:disabled{
+    border: 1px solid red;
+
+}
+
+
+.Fieldset .LegendIn{
+    color: #151515;
+    position: absolute;
+    font-size: 13px;
+    top: 20px;
+    margin-left: 5px;
+    transition: all .3s ease-in;
+    visibility: hidden;
+    z-index: 2;
+}
+
+.LegendIn.LegendUp{
+    color: white;
+    position: relative;
+    top: -15px;
+    padding: 0 5px 0 5px;
+    border-radius: 10px;
+    height: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    background: transparent;
+    transition: all .3s ease-in;
+    visibility: visible;
+}

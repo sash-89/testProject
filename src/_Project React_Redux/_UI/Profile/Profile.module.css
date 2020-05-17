@@ -1,0 +1,36 @@
+.Container{
+    display: grid;
+    grid-template-areas:"img"
+    "ProfileInfo" "MyPosts";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+}
+
+.ImgWrapper{
+    grid-area: img;
+    background: url("https://avatars.mds.yandex.net/get-pdb/1572252/5c60de52-e63b-4b8b-88e3-7c1ea4f4e049/s1200?webp=false") 0 0/cover fixed;
+    height: 200px;
+    border: 1px solid #3a3a3a;
+
+}
+.Preloader{
+    display: inline-block;
+
+}
+
+.ProfileInfo{
+    grid-area: ProfileInfo;
+    display: grid;
+    justify-content: start;
+    border: 1px solid #000;
+    background: white;
+
+}
+
+.MyPosts{
+    grid-area: MyPosts;
+    display: grid;
+    justify-content: start;
+}

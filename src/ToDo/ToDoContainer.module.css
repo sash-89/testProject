@@ -1,0 +1,17 @@
+.Container{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.ProductName{
+    height: 50px;
+    border: 1px solid #000;
+    background: rgba(57, 130, 177, 0.82);
+}
+
+.Product{
+    border: 1px solid #000;
+}

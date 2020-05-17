@@ -1,0 +1,74 @@
+.Container{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.Wrapper{
+    margin: 50px 0;
+}
+
+.Form {
+    margin: 0 auto;
+    padding: 15px 0;
+    max-width: 500px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 68%,rgba(184,186,198,1) 85%,rgba(184,186,198,1) 85%,rgba(245,246,246,1) 100%);
+    box-shadow: 2px 2px 2px 2px #515151;
+}
+.Form div{
+    position: relative;
+    margin: 0 auto ;
+    text-align: left;
+    max-width: 200px;
+}
+.Input {
+    display: block;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+
+}
+
+.Form button {
+    height: 25px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    border: 0;
+    background: #13a2bd;
+    text-transform: uppercase;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.Form button:after{
+    content: "";
+    position: absolute;
+    margin: 0;
+    width: 11%;
+    height: 100%;
+    transform: translateX(-50%) scaleX(1);
+    top: 0;
+    left: 50%;
+}
+.Form button:active:after{
+    content: "";
+    position: absolute;
+    box-shadow:inset 0 0 5px 0 rgb(250, 252, 255);
+    transform: scaleX(12);
+    z-index: 1;
+    transition: .5s transform;
+    opacity: .5;
+
+}
+/*.Form button:active{*/
+/*    background: rgba(19, 162, 189, 0.45);*/
+/*    box-shadow: inset 0 0 2px 2px white;*/
+/*}*/
+
+.Form button:disabled{
+    background: rgba(10, 31, 43, 0.45);
+    cursor: url("./no-drop.cur"), no-drop ;
+}.Form button:disabled:after{
+    display: none;
+}

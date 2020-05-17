@@ -1,0 +1,38 @@
+.Weather{
+    display:grid;
+    font-size: 14px;
+    padding-left: 20px;
+    justify-items: start;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    min-width: 245px;
+}
+
+.Weather p{
+    display: block;
+    height: 20px;
+    margin: 0;
+}
+
+.WeathIcon{
+    position: absolute;
+    top: -25px;
+    left: 130px;
+    width: 80px;
+
+}
+
+.Term{
+    width: 16px;
+    top: 2px
+}
+.Wind{
+    width: 16px;
+    top: 2px
+}
+.Time{
+    position: absolute;
+    left: 165px;
+    top: 60px
+}

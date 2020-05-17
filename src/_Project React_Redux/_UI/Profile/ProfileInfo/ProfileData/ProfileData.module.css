@@ -1,0 +1,64 @@
+.CloseMenu{
+    display: inline-block;
+    right: 0;
+    float: right;
+    border: 8px solid transparent;
+    border-top: 7px solid #3a3a3a;
+    position: relative;
+    top: 9px;
+    cursor: pointer;
+
+}
+.CloseMenu.OpenMenu{
+    display: inline-block;
+    border: 8px solid transparent;
+    border-bottom: 7px solid #3a3a3a;
+    position: relative;
+    top: -3px;
+}
+.ContactsWrapper{
+    position: relative;
+
+}
+.ContactsClose>div{
+    transition: all .3s linear;
+    height: 30px;
+    visibility: visible;
+}
+.ContactsClose>div>a{
+    margin-left: 15px;
+    color: #5e5373;
+}
+.ContactsClose.ContactsOpen>div{
+    transition: none;
+    height: 0;
+    visibility: hidden;
+}
+
+.ContactsClose{
+    position: absolute;
+    visibility: visible;
+    padding:10px 10px 0 15px;
+    margin-top: 32px;
+    border-radius: 2px;
+    z-index: 3;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(234, 234, 234, 1);
+}
+.ContactsClose.ContactsOpen{
+  visibility: hidden;
+    transition: height .3s linear;
+    height: 0;
+}
+
+.editImg{
+    display: grid;
+    position: absolute;
+    width: 23px;
+    z-index: 0;
+    left: 222px;
+    top:-3px;
+    cursor: pointer;
+}

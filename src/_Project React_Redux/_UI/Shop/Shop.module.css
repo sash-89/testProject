@@ -1,0 +1,168 @@
+.Wrapper {
+    display: grid;
+    background: white;
+    margin: 0 50px;
+}
+
+
+
+.ShopHeaderWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    border-bottom: 2px solid #3a3a3a;
+    margin: 20px 20px 0 20px;
+}
+
+.ShopHeaderWrap h3 {
+    color: #3a3a3a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ShoppingCartIco {
+    margin: 4px 10px 0 0;
+    color: #3a3a3a;
+}
+
+.ShopHeaderWrap div {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+
+
+.Pagination{
+    background: #3a3a3a;
+    margin: 5px 20px 0 20px;
+    height: 29px;
+}
+
+.ShopItemsWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    justify-content: space-between;
+    grid-column-gap: 20px;
+    margin: 20px 20px;
+
+}
+.ShopItem{
+    display: flex;
+    background: rgba(158, 158, 158, 0.41);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.ShopItem div{
+    display: grid;
+    width: 100%;
+
+}
+
+.ShopItem span{
+    display: flex;
+    font-size: 0.9em;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.7);
+
+}
+.ShopItemsWrap img{
+    width: 100px;
+}
+
+.ShopItem div .Btn{
+    position: relative;
+    font-size: 10px;
+    align-self: end;
+    justify-self: end;
+}
+
+
+
+
+.ShopBasketWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.ShopBasketWrapper h3 {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.ShopBasketWrapper table {
+    border-top: 2px solid #3a3a3a;
+    border-collapse: collapse;
+}
+
+.ShopBasketWrapper table thead {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.ShopBasketWrapper table tbody {
+    line-height: 40px;
+}
+
+.ShopBasketWrapper button {
+    width: 20px;
+    margin: 5px;
+}
+
+.ShopBasketWrapper button:nth-child(1) {
+    border: 1px solid green;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+.ShopBasketWrapper button:nth-child(1):active{
+    border: 2px solid green;
+    box-shadow: 0 0 2px 2px green;
+}
+
+.ShopBasketWrapper button:nth-child(2) {
+    border: 1px solid #ffd847;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+.ShopBasketWrapper button:nth-child(2):active{
+    border: 2px solid #ffd847;
+    box-shadow: 0 0 2px 2px #ffd847;
+}
+
+.ShopBasketWrapper button:nth-child(3) {
+    border: 1px solid red;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+.ShopBasketWrapper button:nth-child(3):active{
+    border: 2px solid #ff0019;
+    box-shadow: 0 0 2px 2px #ff0019;
+}
+
+.faPlusCircle {
+    color: green;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.faMinusCircle {
+    color: #ffd847;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.faTrash {
+    color: red;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+

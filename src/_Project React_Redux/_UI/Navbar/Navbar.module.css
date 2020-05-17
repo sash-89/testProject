@@ -1,0 +1,40 @@
+.NavBar {
+    grid-area: navbar;
+    background: #3a3a3a;
+    padding: 10px;
+    text-align: left;
+    outline: 1px solid white;
+    outline-offset:-3px;
+}
+
+.logo {
+    display: none;
+}
+
+.NavBar a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
+.NavBar a:nth-child(4) {
+    margin-top: 25px;
+}
+
+.NavBar a:hover {
+    color: rgba(58, 58, 58, 0.81);
+    background-color: rgba(255, 255, 255, 0.63);
+
+}
+
+a.activeLink, .NavBar a.activeLink:hover {
+    color: #3a3a3a;
+    background-color: white;
+}
+
+.activeLink .logo {
+    display: inline-block;
+    color: #ff6514;
+    width: 25px;
+    float: right;
+}

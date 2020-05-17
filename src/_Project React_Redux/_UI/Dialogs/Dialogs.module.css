@@ -1,0 +1,20 @@
+.Container{
+    display: grid;
+    grid-template-areas:"DialogsUsers Messages";
+    grid-template-rows: 10fr;
+    grid-template-columns: 1.5fr 8fr;
+    grid-gap: 10px;
+
+}
+
+.DialogsUsers{
+    grid-area: DialogsUsers;
+    background: white;
+}
+
+.Messages{
+    grid-area: Messages;
+    display: grid;
+    justify-content: start;
+    background: white;
+}

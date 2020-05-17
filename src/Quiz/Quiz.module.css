@@ -1,0 +1,31 @@
+.Wrapper{
+    display: block;
+    position: relative;
+    text-align: left;
+    top: 50px;
+    max-width: 700px;
+    min-width: 350px;
+    color: white;
+}
+.ActiveQuiz{
+    position: relative;
+    text-align: left;
+    height: 270px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 30px 15px;
+    margin: 25px 0 0 0;
+
+}
+.ActiveQuiz p{
+
+}
+.ActiveQuiz p span small{
+    display: inline-block;
+    position: relative;
+    float: right;
+
+}
+
+
+

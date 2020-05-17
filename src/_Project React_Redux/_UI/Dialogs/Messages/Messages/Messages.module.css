@@ -1,0 +1,85 @@
+.Container {
+    display: grid;
+    align-items: end;
+    margin-left: 20px;
+    height: 70vh;
+    overflow-y: scroll;
+    grid-auto-columns: minmax(500px, 2000px);
+
+}
+
+.Container::-webkit-scrollbar { width: 3px; height: 3px;}
+.Container::-webkit-scrollbar-button {  background-color: #666; }
+.Container::-webkit-scrollbar-track {  background-color: #999;}
+.Container::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+.Container::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+.Container::-webkit-scrollbar-corner { background-color: #999;}
+.Container::-webkit-resizer { background-color: #666;}
+
+.Messages {
+    display: grid;
+    justify-content: start;
+    text-align: left;
+    width: 50%;
+}
+.Messages .Msg {
+    display: inline-block;
+    float: left;
+    clear: both;
+    position: relative;
+    background: rgba(58, 58, 58, 0.52);
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.Msg p{
+    font-size: 1em;
+    font-weight: 600;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+.MenuToggle{
+    display: grid;
+    justify-content: end;
+    position: absolute;
+    margin: -5px 0 0 2px;
+    width: 100%;
+
+}
+.MenuWrapper{
+    position: relative;
+}
+.MenuIco{
+    height: 30px;
+    cursor: pointer;
+    z-index: 3;
+}
+.Menu{
+    position: absolute;
+    border-radius:3px ;
+    font-size: 12px;
+    padding: 0 3px;
+    color: white;
+    margin-top: -20px;
+    right: -108%;
+    height: 20px;
+    background: #3a3a3a;
+}
+.Menu:after{
+    content: '';
+    display: block;
+    border: 7px solid transparent;
+    border-top: 5px solid #3a3a3a;
+    position: absolute;
+    top: 20px;
+    margin-left: 59px;
+    cursor: pointer;
+
+}
+.Menu>span{
+    padding: 0 4px 4px 4px;
+    cursor: pointer;
+}
+.Menu span:nth-child(1){
+    border-right:1px solid white;
+}

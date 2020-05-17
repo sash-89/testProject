@@ -1,0 +1,31 @@
+
+.Posts {
+    display: grid;
+    justify-content: start;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.Posts p{
+    display: inline-block;
+    max-width: 70%;
+    min-width: 200px;
+    margin-bottom: 7px;
+
+}
+.Posts span{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    top: 3px;
+}
+.Posts img{
+    width: 20px;
+    top: -7px;
+    left: -4px;
+    border-radius: 30%;
+    background: white;
+    /*box-shadow: 0 0 5px 0 white;*/
+}

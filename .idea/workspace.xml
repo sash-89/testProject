@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27fb0d8f-47be-49b2-82de-1f917b83df7c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="test-project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YfjnjKyv6FZj7QGE6ZZ9F9cPo5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_Project React_Redux/_UI/Users" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="ts.external.directory.path" value="D:\Program Files\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Users" />
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\redux\shop_page" />
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Shop\ShopBasket" />
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Shop\ShopHeader" />
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Shop\ShopItems" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Shop" />
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Users" />
+      <recent name="E:\JS\Project React\test-project\node_modules" />
+      <recent name="E:\JS\Project React\test-project\src\ToDo3" />
+      <recent name="E:\JS\Project React\test-project\src\_Project React_Redux\_UI\Profile\ProfileInfo\ProfileData" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="characters + text[charCount]" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27fb0d8f-47be-49b2-82de-1f917b83df7c" name="Default Changelist" comment="" />
+      <created>1583340711478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583340711478</updated>
+      <workItem from="1583340716217" duration="2118000" />
+      <workItem from="1584124645452" duration="10712000" />
+      <workItem from="1584471772167" duration="44483000" />
+      <workItem from="1585221359562" duration="50478000" />
+      <workItem from="1585301778668" duration="85032000" />
+      <workItem from="1585749623820" duration="1692000" />
+      <workItem from="1585752105180" duration="99493000" />
+      <workItem from="1585998515416" duration="15753000" />
+      <workItem from="1586016953514" duration="327000" />
+      <workItem from="1586017319971" duration="75032000" />
+      <workItem from="1586286831965" duration="105135000" />
+      <workItem from="1586607239368" duration="11856000" />
+      <workItem from="1586627831138" duration="43540000" />
+      <workItem from="1586777636448" duration="91251000" />
+      <workItem from="1586971088178" duration="9408000" />
+      <workItem from="1587046310625" duration="20696000" />
+      <workItem from="1587120002751" duration="13243000" />
+      <workItem from="1587207126070" duration="12181000" />
+      <workItem from="1587219887331" duration="84531000" />
+      <workItem from="1587482847159" duration="122635000" />
+      <workItem from="1587979708195" duration="98561000" />
+      <workItem from="1588324913280" duration="1753000" />
+      <workItem from="1588326962565" duration="956000" />
+      <workItem from="1588330180818" duration="73000" />
+      <workItem from="1588330278057" duration="13897000" />
+      <workItem from="1588427136092" duration="63221000" />
+      <workItem from="1588776436911" duration="777000" />
+      <workItem from="1588778148597" duration="87796000" />
+      <workItem from="1588960966909" duration="173000" />
+      <workItem from="1588961611890" duration="77407000" />
+      <workItem from="1589742072913" duration="734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#ESLint" timestamp="1589118541547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1589118541547" />
+    <state x="275" y="21" key="#Inspections" timestamp="1589139391704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1589139391704" />
+    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586362660970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586362660970" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588430856397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588430856397" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1589636562601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589636562601" />
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1589742807266">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589742807266" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1589742807265">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589742807265" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1589742807265">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589742807265" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1589742807266">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589742807266" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1588221801946">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588221801946" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585771050506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585771050506" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586702117005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1586702117005" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1589113607070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589113607070" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588698673095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588698673095" />
+  </component>
+</project>
